@@ -1,0 +1,40 @@
+{
+  "name": "09_react_todo-app_first-iteration",
+  "version": "1.0.0",
+  "description": "A practice exercise to reinforce ReactJS concepts learned in class.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcCastellaPla/09_react_todo-app_first-iteration.git"
+  },
+  "keywords": [
+    "react",
+    "exercises"
+  ],
+  "author": "Marc Castellà Pla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcCastellaPla/09_react_todo-app_first-iteration/issues"
+  },
+  "homepage": "https://github.com/MarcCastellaPla/09_react_todo-app_first-iteration#readme",
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0"
+  }
+}
