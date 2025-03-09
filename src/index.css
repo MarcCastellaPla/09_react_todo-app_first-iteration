@@ -19,6 +19,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
+  background-color: var(--main-background-color);
 }
 
 #root {
