@@ -6,6 +6,18 @@
   min-height: 50px;
 }
 
+.itemCard__title--done {
+  text-decoration: line-through;
+}
+
+.itemCard__title--in-progress {
+  font-weight: bold;
+}
+
+.itemCard__title--pending {
+  font-weight: normal;
+}
+
 .itemCard__description {
   flex-grow: 1;
   font-size: 14px;

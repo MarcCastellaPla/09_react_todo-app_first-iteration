@@ -5,20 +5,21 @@ import { ItemsList } from './ItemsList.jsx';
 import { ListContainer } from './ListContainer.jsx';
 import './App.css';
 import { taskList } from './data/tasks.js';
+import { HeaderContainer } from './HeaderContainer.jsx';
 
 const App = () => {
   return (
-    <div>
-      <header className="header__wrapper">
-        <Header title="TodoApp" />
+    <>
+      <HeaderContainer>
+        <Header />
         <Subheader subtitle="Todo List Manager" />
-      </header>
+      </HeaderContainer>
 
       <ListContainer>
         <ListHeader content="Todo List" />
         <ItemsList itemsList={taskList} />
       </ListContainer>
-    </div>
+    </>
   );
 };
 
