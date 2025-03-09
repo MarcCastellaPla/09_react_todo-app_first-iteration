@@ -1,0 +1,62 @@
+:root {
+  --color-primary-button: #027bff;
+  --color-done: green;
+  --color-in-progress: #027bff;
+  --color-pending: gray;
+  --color-text-light: black;
+  --color-text-dark: white;
+}
+
+.itemCard__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  min-height: 50px;
+}
+
+.itemCard__description {
+  flex-grow: 1;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.itemCard__status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 100%;
+  height: 35px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  margin-top: auto;
+}
+
+.itemCard__status--done {
+  background-color: var(--color-done);
+}
+
+.itemCard__status--in-progress {
+  background-color: var(--color-in-progress);
+}
+
+.itemCard__status--pending {
+  background-color: var(--color-pending);
+}
+
+@media (prefers-color-scheme: light) {
+  .itemCard__title {
+    color: var(--color-text-light);
+  }
+
+  .itemCard__description {
+    color: var(--color-text-light);
+  }
+
+  .itemCard__status {
+    color: var(--color-text-light);
+  }
+}

@@ -1,0 +1,20 @@
+:root {
+  /* Primary colors */
+  --color-primary: #646cff;
+  --color-primary-hover: #535bf2;
+  --color-primary-button: #027bff;
+  --color-primary-shadow: #646cffaa;
+  --color-react-shadow: #61dafbaa;
+
+  /* Background colors */
+  --color-background-dark: #242424;
+  --color-background-darker: #1a1a1a;
+  --color-background-card: #333;
+  --color-background-light: #ffffff;
+  --color-background-alt: #f9f9f9;
+
+  /* Text colors */
+  --color-text-light: #213547;
+  --color-text-link-light: #747bff;
+  --color-text-muted: #888;
+}

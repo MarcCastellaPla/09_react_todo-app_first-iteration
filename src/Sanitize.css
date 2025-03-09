@@ -1,0 +1,63 @@
+/* Remove Default Margin and Padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove List Bullets */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Prevent Unexpected Font Resets */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Prevent Text Selection Hijacking */
+body,
+button,
+input,
+textarea {
+  user-select: auto;
+}
+
+/* Ensure Images and Media Are Responsive */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent Overflow Issues */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Secure Links to Prevent Unexpected Click Behavior */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove Default Button Styling */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Prevent Unwanted Border on Inputs */
+input,
+textarea,
+button {
+  outline: none;
+}
+
+/* Disable Scrollbar Styling That Might Be Exploited */
+::-webkit-scrollbar {
+  display: none;
+}
