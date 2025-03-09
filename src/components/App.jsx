@@ -71,8 +71,11 @@ const taskList = [
 const App = () => {
   return (
     <>
-      <Header title="TodoApp"></Header>
-      <Subheader subtitle="Todo List Manager"></Subheader>
+      <header className="header__wrapper">
+        <Header title="TodoApp"></Header>
+        <Subheader subtitle="Todo List Manager"></Subheader>
+      </header>
+
       <ListContainer>
         <ListHeader content="Todo List"></ListHeader>
         <ItemsList itemsList={taskList}></ItemsList>

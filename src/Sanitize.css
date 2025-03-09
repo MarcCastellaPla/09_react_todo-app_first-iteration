@@ -31,12 +31,6 @@ video {
   height: auto;
 }
 
-/* Prevent Overflow Issues */
-html,
-body {
-  overflow-x: hidden;
-}
-
 /* Secure Links to Prevent Unexpected Click Behavior */
 a {
   text-decoration: none;
