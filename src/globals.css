@@ -1,19 +1,21 @@
 :root {
-  /* Primary colors */
-  --color-primary: #646cff;
-  --color-primary-hover: #535bf2;
-  --color-primary-button: #027bff;
-  --color-primary-shadow: #646cffaa;
-  --color-react-shadow: #61dafbaa;
+  --task-done-bg: #008001;
+  --task-in-progress-bg: #027bff;
+  --task-pending-bg: #808080;
+}
 
-  /* Background colors */
-  --color-background-dark: #242424;
-  --color-background-card: #333;
-  --color-background-light: #ffffff;
-  --color-background-alt: #f9f9f9;
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-background-color: #f0f0f0;
+    --main-text-color: #000000;
+    --card-background-color: #ffffff;
+  }
+}
 
-  /* Text colors */
-  --color-text-light: #213547;
-  --color-text-link-light: #747bff;
-  --color-text-muted: #888;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-background-color: #242424;
+    --main-text-color: #ffffff;
+    --card-background-color: #333333;
+  }
 }
