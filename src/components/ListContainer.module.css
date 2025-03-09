@@ -1,6 +1,4 @@
-.taskList__wrapper ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-  gap: 15px;
+.taskList__wrapper {
   background-color: var(--main-background-color);
+  padding: 0 2rem;
 }

@@ -20,9 +20,11 @@ export const ItemCard = ({ item: { status, title, description } }) => {
 
   return (
     <>
-      <h4 className={`${styles.itemCard__title} ${titleModifier}`}>{title}</h4>
-      <p className={styles.itemCard__description}>{description}</p>
-      <span className={`${styles.itemCard__status} ${statusModifier}`}>
+      <h4 className={`${styles['itemCard__title']} ${titleModifier}`}>
+        {title}
+      </h4>
+      <p className={styles['itemCard__description']}>{description}</p>
+      <span className={`${styles['itemCard__status']} ${statusModifier}`}>
         {statusUpperCase}
       </span>
     </>
